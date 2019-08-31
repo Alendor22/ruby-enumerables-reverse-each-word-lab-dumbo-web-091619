@@ -1,4 +1,5 @@
 def reverse_each_word(string)
-yield(string)
+base = "Hello there, and how are you?"
+yield(base)
 end
-reverse_each_word("Hello there, and how are you?").to_ary
+reverse_each_word().to_ary
